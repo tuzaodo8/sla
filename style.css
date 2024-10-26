@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    height: 100%;
+    background-image:linear-gradient(to top,#282E3B,#8793a2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: -30px;
+    font-size: 1.2em;
+}
+#produto{
+    width: 380px;
+    height: 8vh;
+    border-radius: 50px;
+    border:solid 1px #ffffff;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+img{
+    width: 50px;
+    margin-top: -53px;
+    height: 50px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 5px;
+    float: left;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration-line: none;
+    color: white;
+}
+#image-tikto{
+    margin-top: 20%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+}
+h2{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15pt;
+}
+#produto:hover{
+    background-color:rgb(255, 255, 255);
+}
+a:hover{
+    color: #000000;
+}
